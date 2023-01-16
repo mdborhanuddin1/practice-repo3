@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(to top, rgba(3, 110, 160, 0.1), rgba(0, 0, 0, 0.6)), url('../images/sea-water.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header-content{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transform: translatey(50%);
+}
+.header-title{
+    font-size: 4vw;
+    color: #ffffff;
+}
+.header-subscribe{
+    margin-top: 20px;
+}
+.header-subscribe input{
+    border: 1px solid #0258c2;
+    font-size: 18px;
+    padding: 0.6rem 2rem;
+    border-radius: 5px;
+    
+}
+.header-subscribe button{
+    border: 0;
+    font-size: 18px;
+    background-color: #0258c2;
+    color: #fff;
+    padding: 0.6rem 0.4rem;
+    border-radius: 5px;
+}
+.device-responsive{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.responsive{
+    text-align: center;
+    margin-top: 100px;
+}
+.responsive img{
+    width: 60px;
+    height: 60px;
+}
+.responsive h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.responsive p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+/* main-area */
+main{
+    background-color: #f7f7f7;;
+}
+
+/* ------gallery section----- */
+.gallery{
+    margin: 100px 0;
+}
+
+.design-steps{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+}
+.div{
+    margin: 0;
+}
+.full-responsive{
+    text-align: justify;
+}
+.step h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.step p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.design{
+    width: 100%;
+    background-color: #fff7f7;
+    padding: 140px;
+}
+.gallery-image img{
+    width: 100%;
+}
+
+
+/* media query */
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+    .header-subscribe{
+       
+    }
+    
+}
