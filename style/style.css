@@ -1,0 +1,7 @@
+.bg-img{
+    background-image: linear-gradient(to top, rgba(2, 30, 56, 0.3), rgb(1, 19, 36, 1)), url('../images/sea-water.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}

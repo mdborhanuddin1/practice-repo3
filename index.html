@@ -4,41 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/349309f5b5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/practice_code.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>practice-repo3</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="header-content">
-                <h1 class="header-title">Generate more leads<br>with a professional<br>landing page!</h1>
-                <div class="header-subscribe">
-                    <input type="email" placeholder="Email Address">
-                    <button>Subscribe</button>
+        <div class="bg-img flex items-center justify-center">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-7xl font-bold md:leading-snug text-white">Generate more leads<br>with a professional<br>landing page!</h1>
+                <div class="py-5">
+                    <input type="text" placeholder="Your Email" class="w-80 py-3 px-3 rounded">
+                    <input type="submit" value="Submit" class="w-24 py-3 bg-blue-500 font-semibold text-white rounded">
                 </div>
             </div>
         </div>
     </header>
 <!-- main area -->
     <main>
-        <section class="container">
-            <div class="device-responsive">
-                <div class="responsive">
-                    <img src="images/icon1.png" alt="">
-                    <h2>Fully Responsive</h2>
-                    <p>This theme will look great on any<br>device, no matter the size!</p>
-                </div>
-                <div class="responsive">
-                    <img src="images/icon2.png" alt="">
-                    <h2>Bootstrap 5 Ready</h2>
-                    <p>Featuring the latest build of the new<br>Bootstrap 5 framework!</p>
-                </div>
-                <div class="responsive">
-                    <img src="images/icon3.png" alt="">
-                    <h2>Easy to Use</h2>
-                    <p>Ready to use with your own content<br>or customize the source files!</p>
+        <section class="my-6">
+            <div class="container mx-auto">
+                <div class="md:flex md:gap-0 gap-3 justify-around items-center">
+                    <div class="text-center">
+                        <img src="images/icon1.png" class="w-14 h-14 mx-auto pt-2" alt="">
+                        <div class="mt-5">
+                            <h2 class="font-bold text-xl">Fully Responsive</h2>
+                            <p class="mt-2">This theme will look great on any<br>device, no matter the size!</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/icon2.png" class="w-14 h-14 mx-auto pt-2" alt="">
+                        <div class="mt-5">
+                            <h2 class="font-bold text-xl">Bootstrap 5 Ready</h2>
+                            <p class="mt-2">Featuring the latest build of the new<br>Bootstrap 5 framework!</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="images/icon3.png" class="w-14 h-14 mx-auto pt-2" alt="">
+                        <div class="mt-5">
+                            <h2 class="font-bold text-xl">Easy to Use</h2>
+                            <p class="mt-2">Ready to use with your own content<br>or customize the source files!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
